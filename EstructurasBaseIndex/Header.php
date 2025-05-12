@@ -4,11 +4,6 @@
         <div class="logo">
             <a href="" class="logo1"><img src="img/Logos/ShotByDankiel.jpg" alt="Logo 1"/></a>
             <a href="" class="logo2"><img id="logo2" src="img/Logos/LogoDankiel.jpg" alt="Logo 2"/></a>
-            <a href="" class="logo3"><img id="logo3" src="img/Logos/LogoBlackGengar.jpg" alt="Logo 3"/></a>
-        </div>
-        <div class="firmas">
-            <a href="" class="firma1"><img src="img/Firmas/FirmaDankiel.jpg" alt="Firma 1"/></a>
-            <a href="" class="firma2"><img src="img/Firmas/FirmaBlackGengar.jpg" alt="Firma 2"/></a>
         </div>
         <div class="menu">
             <ul class="nav" id="nav">
@@ -60,6 +55,5 @@
 
         // Configurar el efecto de hover para ambos logos
         setupLogoHover('logo2', 'img/Animacion/Cabeza.gif'); // Para LogoDankiel.jpg
-        setupLogoHover('logo3', 'img/Animacion/CabezaBlackGengar.gif'); // Para LogoBlackGengar.jpg
     </script>
 </header>
