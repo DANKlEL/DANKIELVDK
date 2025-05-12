@@ -24,21 +24,21 @@ if ($_SESSION['username'] === "verake@gmail.com") $artistaSugerido = "Verake";
                     <div class="form-check-image">
                         <input class="form-check-input" type="radio" name="artista" id="artistaDankiel" value="Dankiel" <?= $artistaSugerido === 'Dankiel' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="artistaDankiel">
-                            <img src="img/Vdk/dankiel/dankiel.PNG" class="rounded-circle artist-img" alt="Dankiel">
+                            <img src="img/dankiel.png" class="rounded-circle artist-img" alt="Dankiel">
                             <span>Dankiel <?= $artistaSugerido === 'Dankiel' ? '(Sugerencia)' : '' ?></span>
                         </label>
                     </div>
                     <div class="form-check-image">
                         <input class="form-check-input" type="radio" name="artista" id="artistaVerake" value="Verake" <?= $artistaSugerido === 'Verake' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="artistaVerake">
-                            <img src="img/Vdk/verake/verake.jpg" class="rounded-circle artist-img" alt="Verake">
+                            <img src="img/verake.jpg" class="rounded-circle artist-img" alt="Verake">
                             <span>Verake <?= $artistaSugerido === 'Verake' ? '(Sugerencia)' : '' ?></span>
                         </label>
                     </div>
                     <div class="form-check-image">
                         <input class="form-check-input" type="radio" name="artista" id="artistaDdxous" value="Ddxous" <?= $artistaSugerido === 'Ddxous' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="artistaDdxous">
-                            <img src="img/Vdk/ddxous/ddxous.jpg" class="rounded-circle artist-img" alt="Ddxous">
+                            <img src="img/ddoxus.jpg" class="rounded-circle artist-img" alt="Ddxous">
                             <span>Ddxous <?= $artistaSugerido === 'Ddxous' ? '(Sugerencia)' : '' ?></span>
                         </label>
                     </div>

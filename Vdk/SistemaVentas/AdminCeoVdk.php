@@ -170,7 +170,7 @@ if (isset($_SESSION['username']) && !in_array($_SESSION['username'], $allowedEma
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth();
-        const allowedEmails = ["infodankiel@gmail.com", "ddxous@gmail.com", "verake@gmail.com"];
+        const allowedEmails = ["infodankiel@gmail.com", "ddxous@gmail.com", "fragorrecords@gmail.com@gmail.com", "eduardocar995.ec@gmail.com"];
 
         async function handleAdminAuth(user) {
             const response = await fetch('sessionManagerVDK.php', {
